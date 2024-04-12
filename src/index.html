@@ -1,0 +1,616 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./output.css" rel="stylesheet">
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./output.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer">
+  <title>React App</title>
+  <link href="/sa/static/css/main.c462d00d.css" rel="stylesheet">
+</head>
+<body>
+  <noscript>You need to enable JavaScript to run this app.</noscript>
+<header class ="bg-gray-500 text-white py-4 fixed top-0 left-0 w-full z-50">
+    <div>
+    <div>
+      <div class="flex py-4 px-8 items-center justify-between gap-2">
+        <div class="flex w-1/6 lg:w-1/2 gap-5">
+          <a href="#kamatis"><i class="fa-solid fa-bars text-2xl cursor-pointer"></i></a>
+          <div class="hidden lg:flex items-center gap-5">
+            <p class="text-4xl cursor-pointer">CARHARTT<span class="font-bold"> Shop</span></p>
+          </div>
+        </div>
+        
+        <div class="flex items-left w-5/6 lg:w-2/5 gap-2 bg-gray-100 rounded-full p-2">
+          <i class="fa-solid fa-magnifying-glass "></i>
+          <input class="w-full outline-none bg-gray-100 place-items-center" type="text" placeholder="Search ... ">
+        </div>
+
+        <div class="hidden md:flex md:w-1/6 items-center gap-2 justify-end">
+          <i class="fa-solid fa-cart-shopping text-2xl"></i>
+          <p class="text-base cursor-pointer hover:text-orange-700">Cart</p>
+        </div>
+
+        <div class="w-2/3 md:w-1/2 fixed top-0 left-[-100%] z-20 h-screen bg-white p-4 duration-300">
+          <div class="mt-2 flex justify-between items-center">
+            <p class="text-base md:text-2xl ml-5">Carhartt <span class="font-bold">Shop</span></p>
+            <i class="fa-solid fa-x text-base hover:text-orange-700 cursor-pointer"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+  <div id="root">
+    <div class="max-w-[1500px] mx-auto p-4">
+      <div class="relative max-h-[500px]">
+        <div class="absolute w-full h-full max-h-[500px] bg-black/45 text-gray-100 flex flex-col justify-center leading-3">
+          <h1 class="leading-3 font-bold text-4xl p-4 md:text-5xl lg:text-6xl">The <span class="text-yellow-600">BEST</span></h1>
+          <h1 class="leading-3 font-bold text-4xl p-4 md:text-5xl"><span class="text-yellow-600">CLOTHING</span> Delivery</h1>
+        </div>
+        <img class="object-cover h-full w-full" src="Logo.jpg" alt="" style="height: 500px; width: 100%;">
+      </div>
+    </div>
+    
+    <div class="max-w-[1500px] mx-auto px-4 py-8">
+      <div class="grid md:grid-cols-3 xl:grid-cols-6 grid-cols-1 gap-4">
+        <div class="relative rounded-xl md:h-[220px] h-[200px]">
+          <div class="absolute top-0 left-0 w-full h-full text-white bg-black/50">
+            <p class="py-4 px-2 text-3xl font-bold text-center mt-36">JACKETS</p>
+          </div>
+          <img class="max-h-[200px] md:max-h-[220px] w-full object-cover rounded-xl" src="model1.jpg" alt="">
+        </div>
+
+        <div class="relative rounded-xl md:h-[220px] h-[200px]">
+          <div class="absolute top-0 left-0 w-full h-full text-white bg-black/50">
+            <p class="py-4 px-2 text-3xl font-bold text-center mt-36">T-SHIRTS</p>
+          </div>
+          <img class="max-h-[200px] md:max-h-[220px] w-full object-cover rounded-xl" src="model2.jpg" alt="">
+        </div>
+
+        <div class="relative rounded-xl md:h-[220px] h-[200px]">
+          <div class="absolute top-0 left-0 w-full h-full text-white bg-black/50">
+            <p class="py-4 px-2 text-3xl font-bold text-center mt-36">JEANS</p>
+          </div>
+          <img class="max-h-[200px] md:max-h-[220px] w-full object-cover rounded-xl" src="model3.jpg" alt="">
+        </div>
+
+        <div class="relative rounded-xl md:h-[220px] h-[200px]">
+            <div class="absolute top-0 left-0 w-full h-full text-white bg-black/50">
+              <p class="py-4 px-2 text-3xl font-bold text-center mt-36">KIDS</p>
+            </div>
+            <img class="max-h-[200px] md:max-h-[220px] w-full object-cover rounded-xl" src="model4.jpg" alt="">
+          </div>
+
+          <div class="relative rounded-xl md:h-[220px] h-[200px]">
+            <div class="absolute top-0 left-0 w-full h-full text-white bg-black/50">
+              <p class="py-4 px-2 text-3xl font-bold text-center mt-36">MEN</p>
+            </div>
+            <img class="max-h-[200px] md:max-h-[220px] w-full object-cover rounded-xl" src="model5.jpg" alt="">
+          </div>
+  
+          <div class="relative rounded-xl md:h-[220px] h-[200px]">
+            <div class="absolute top-0 left-0 w-full h-full text-white bg-black/50">
+              <p class="py-4 px-2 text-3xl font-bold text-center mt-36">WOMEN</p>
+            </div>
+            <img class="max-h-[200px] md:max-h-[220px] w-full object-cover rounded-xl" src="model6.jpg" alt="">
+          </div>
+
+      </div>
+    </div>
+
+    <div id="Top" class="max-w-[1500px] mx-auto p-4">
+      <h1 class="text-orange-600 text-center font-bold text-2xl pt-10">Top Rated Items</h1>
+      <div>
+        <div>
+          <div class="items-center py-2 mt-12 mx-auto grid md:grid-cols-4 lx:grid-cols-5 grid-cols-1 gap-2 rounded-xl shadow-lg">
+            <button class="text-orange-700 p-1 px-5 border border-orange-600 rounded-sm hover:bg-orange-700 hover:text-white"><a href="#All">All</a></button>
+            <button class="text-orange-700 p-1 px-5 border border-orange-600 rounded-sm hover:bg-orange-700 hover:text-white"><a href="#Jackets">JACKETS</a></button>
+            <button class="text-orange-700 p-1 px-5 border border-orange-600 rounded-sm hover:bg-orange-700 hover:text-white"><a href="#Tshirts">T-SHIRTS</a></button>
+            <button class="text-orange-700 p-1 px-5 border border-orange-600 rounded-sm hover:bg-orange-700 hover:text-white"><a href="#Jeans">JEANS</a></button>
+            <button class="text-orange-700 p-1 px-5 border border-orange-600 rounded-sm hover:bg-orange-700 hover:text-white"><a href="#Kids">KIDS</a></button>
+            <button class="text-orange-700 p-1 px-5 border border-orange-600 rounded-sm hover:bg-orange-700 hover:text-white"><a href="#Men">MEN</a></button>
+            <button class="text-orange-700 p-1 px-5 border border-orange-600 rounded-sm hover:bg-orange-700 hover:text-white"><a href="#Women">WOMEN</a></button>
+          </div>
+        </div>
+        </div>
+    </div>
+
+
+    <div id="All"> 
+        <h1 class="text-orange-600 text-center font-bold text-4xl pt-10 mt-32">ALL ITEMS</h1>
+            <div class="max-w-[1500px] mx-auto grid md:grid-cols-4 lx:grid-cols-5 grid-cols-1 gap-2 rounded-xl shadow-lg py-4 mt-12">
+                <div class="shadow-xl rounded-xl">
+                <img class="max-h-[350px] w-full h-full object-cover rounded-xl" src="jacket5.jpg" alt="">
+                <div class="flex flex-wrap justify-between p-4">
+                    <h1 class="text-1xl font-bold text-orange-600">Carhartt Jacket</h1>
+                </div>
+                </div>
+                <div class="shadow-xl rounded-xl">
+                <img class="max-h-[350px] w-full h-full object-cover rounded-xl" src="jacket2.jpg" alt="">
+                <div class="flex flex-wrap justify-between p-4">
+                    <h1 class="text-1xl font-bold text-orange-600">Carhartt Jacket</h1>
+                </div>
+                </div>
+
+                <div class="shadow-xl rounded-xl">
+                <img class="max-h-[350px] w-full h-full object-cover rounded-xl" src="jacket1.jpg" alt="">
+                <div class="flex flex-wrap justify-between p-4">
+                    <h1 class="text-1xl font-bold text-orange-600">Carhartt Detroit Jacket</h1>
+                </div>
+                </div>
+
+                <div class="shadow-xl rounded-xl">
+                <img class="max-h-[350px] w-full h-full object-cover rounded-xl" src="jacket6.jpg" alt="">
+                <div class="flex flex-wrap justify-between p-4">
+                    <h1 class="text-1xl font-bold text-orange-600">Carhartt Denim Jacket</h1>
+                </div>
+                </div>
+            </div>
+
+            <div class="max-w-[1500px] mx-auto grid md:grid-cols-4 lx:grid-cols-5 grid-cols-1 gap-2 rounded-xl shadow-lg py-4 mt-12">
+                <div class="shadow-xl rounded-xl">
+                <img class="max-h-[350px] w-full h-full object-cover rounded-xl" src="tshirt1.jpg" alt="">
+                <div class="flex flex-wrap justify-between p-4">
+                    <h1 class="text-1xl font-bold text-orange-600">Carhartt Mens T-shirt Workwear K87 Pocket Basic</h1>
+                </div>
+                </div>
+                <div class="shadow-xl rounded-xl">
+                <img class="max-h-[350px] w-full h-full object-cover rounded-xl" src="tshirt2.jpg" alt="">
+                <div class="flex flex-wrap justify-between p-4">
+                    <h1 class="text-1xl font-bold text-orange-600">Carhartt Men's Camo C Graphic T Shirt</h1>
+                </div>
+                </div>
+
+                <div class="shadow-xl rounded-xl">
+                <img class="max-h-[350px] w-full h-full object-cover rounded-xl" src="tshirt3.jpg" alt="">
+                <div class="flex flex-wrap justify-between p-4">
+                    <h1 class="text-1xl font-bold text-orange-600">Carhartt Men's Heather Gray Cotton/Polyester Force Relaxed Fit Midweight Short Sleeve Pocket T-Shirt 104616-HGY</h1>
+                </div>
+                </div>
+
+                <div class="shadow-xl rounded-xl">
+                <img class="max-h-[350px] w-full h-full object-cover rounded-xl" src="tshirt4.jpg" alt="">
+                <div class="flex flex-wrap justify-between p-4">
+                    <h1 class="text-1xl font-bold text-orange-600">Carhartt Men's Loose Fit Heavyweight Short-Sleeve Logo Graphic T-Shirt, Black</h1>                        </div>
+                </div>
+            </div>
+            
+            <div class="max-w-[1500px] mx-auto grid md:grid-cols-4 lx:grid-cols-5 grid-cols-1 gap-2 rounded-xl shadow-lg py-4 mt-12">
+                <div class="shadow-xl rounded-xl">
+                <img class="max-h-[350px] w-full h-full object-cover rounded-xl" src="jeans3.webp" alt="">
+                <div class="flex flex-wrap justify-between p-4">
+                    <h1 class="text-1xl font-bold text-orange-600">Carhartt WIP Nolan Jeans 100% Cotton Fairfield Denim Stonewash</h1>
+                </div>
+                </div>
+                <div class="shadow-xl rounded-xl">
+                <img class="max-h-[350px] w-full h-full object-cover rounded-xl" src="jeans4.webp" alt="">
+                <div class="flex flex-wrap justify-between p-4">
+                    <h1 class="text-1xl font-bold text-orange-600">Carhartt FR Jeans Adult 34 Blue Flame Resistant Distressed Work Wear</h1>
+                </div>
+                </div>
+
+                <div class="shadow-xl rounded-xl">
+                <img class="max-h-[350px] w-full h-full object-cover rounded-xl" src="jeans2.jpg" alt="">
+                <div class="flex flex-wrap justify-between p-4">
+                    <h1 class="text-1xl font-bold text-orange-600">Carhartt Wip Newel Pant Indigo Blue Dark Jeans Denim Rinsed relaxed tapered cut</h1>
+                </div>
+                </div>
+
+                <div class="shadow-xl rounded-xl">
+                <img class="max-h-[350px] w-full h-full object-cover rounded-xl" src="jeans5.webp" alt="">
+                <div class="flex flex-wrap justify-between p-4">
+                    <h1 class="text-1xl font-bold text-orange-600">Carhartt Original Dungaree Fit Jeans</h1>
+                </div>
+                </div>
+            </div>
+            <div class="max-w-[1500px] mx-auto grid md:grid-cols-4 lx:grid-cols-5 grid-cols-1 gap-2 rounded-xl shadow-lg py-4 mt-12">
+                <div class="shadow-xl rounded-xl">
+                <img class="max-h-[350px] w-full h-full object-cover rounded-xl" src="kids1.jpg" alt="">
+                <div class="flex flex-wrap justify-between p-4">
+                    <h1 class="text-1xl font-bold text-orange-600">Infant/Toddler Boys Carhartt Kids Short Sleeve Shirt and Stripe Shortall | Eagle Eye Outfitters</h1>
+                </div>
+                </div>
+                <div class="shadow-xl rounded-xl">
+                <img class="max-h-[350px] w-full h-full object-cover rounded-xl" src="kids2.webp" alt="">
+                <div class="flex flex-wrap justify-between p-4">
+                    <h1 class="text-1xl font-bold text-orange-600">CARHARTT 2 Piece OFF ROAD Truck T-SHIRT & SHORTS SET Toddler BOYS</h1>
+                </div>
+                </div>
+
+                <div class="shadow-xl rounded-xl">
+                <img class="max-h-[350px] w-full h-full object-cover rounded-xl" src="kids3.jpg" alt="">
+                <div class="flex flex-wrap justify-between p-4">
+                    <h1 class="text-1xl font-bold text-orange-600">CARHARTT KIDS Infant/Toddler Microsanded Canvas Bib Overalls — Ono Work & Safety</h1>
+                </div>
+                </div>
+
+                <div class="shadow-xl rounded-xl">
+                <img class="max-h-[350px] w-full h-full object-cover rounded-xl" src="kids4.jpg" alt="">
+                <div class="flex flex-wrap justify-between p-4">
+                    <h1 class="text-1xl font-bold text-orange-600">Infant/Toddler Boys Carhartt Kids Bodysuit Shortall and Bib Set | Eagle Eye Outfitters</h1>                        </div>
+                </div>
+            </div> 
+            
+            <div class="max-w-[1500px] mx-auto grid md:grid-cols-4 lx:grid-cols-5 grid-cols-1 gap-2 rounded-xl shadow-lg py-4 mt-12">
+                <div class="shadow-xl rounded-xl">
+                <img class="max-h-[350px] w-full h-full object-cover rounded-xl" src="men1.webp" alt="">
+                <div class="flex flex-wrap justify-between p-4">
+                    <h1 class="text-1xl font-bold text-orange-600">Carhartt Men's Hoodie</h1>
+                </div>
+                </div>
+                <div class="shadow-xl rounded-xl">
+                <img class="max-h-[350px] w-full h-full object-cover rounded-xl" src="men2.webp" alt="">
+                <div class="flex flex-wrap justify-between p-4">
+                    <h1 class="text-1xl font-bold text-orange-600">Carhartt Men's Hat Beanie</h1>
+                </div>
+                </div>
+
+                <div class="shadow-xl rounded-xl">
+                <img class="max-h-[350px] w-full h-full object-cover rounded-xl" src="men3.webp" alt="">
+                <div class="flex flex-wrap justify-between p-4">
+                    <h1 class="text-1xl font-bold text-orange-600">Carhartt Men's Cargo Short</h1>
+                </div>
+                </div>
+
+                <div class="shadow-xl rounded-xl">
+                <img class="max-h-[350px] w-full h-full object-cover rounded-xl" src="men4.jpg" alt="">
+                <div class="flex flex-wrap justify-between p-4">
+                    <h1 class="text-1xl font-bold text-orange-600">Carhartt Men's Ground Force Leather Composite Toe Work Boots</h1>
+                </div>
+                </div>
+            </div>
+
+            <div class="max-w-[1500px] mx-auto grid md:grid-cols-4 lx:grid-cols-5 grid-cols-1 gap-2 rounded-xl shadow-lg py-4 mt-12 ">
+                <div class="shadow-xl rounded-xl">
+                <img class="max-h-[350px] w-full h-full object-cover rounded-xl" src="women1.jpg" alt="">
+                <div class="flex flex-wrap justify-between p-4">
+                    <h1 class="text-1xl font-bold text-orange-600">Carhartt Women's Hoodie</h1>
+                </div>
+                </div>
+                <div class="shadow-xl rounded-xl">
+                <img class="max-h-[350px] w-full h-full object-cover rounded-xl" src="women2.avif" alt="">
+                <div class="flex flex-wrap justify-between p-4">
+                    <h1 class="text-1xl font-bold text-orange-600">Carhartt Women's Cap</h1>
+                </div>
+                </div>
+
+                <div class="shadow-xl rounded-xl">
+                <img class="max-h-[350px] w-full h-full object-cover rounded-xl" src="women3.jpg" alt="">
+                <div class="flex flex-wrap justify-between p-4">
+                    <h1 class="text-1xl font-bold text-orange-600">Carhartt Women's Short</h1>
+                </div>
+                </div>
+
+                <div class="shadow-xl rounded-xl">
+                <img class="max-h-[350px] w-full h-full object-cover rounded-xl" src="women4.webp" alt="">
+                <div class="flex flex-wrap justify-between p-4">
+                    <h1 class="text-1xl font-bold text-orange-600">Carhartt Womens Wellington Leather Soft Toe Safety Work Shoes</h1>                        </div>
+                </div>
+            </div>       
+    </div>
+    <div class="max-w-[1500px] mx-auto p-4">
+        <div>
+          <div>
+            <div class="items-center py-2 mt-12 mx-auto grid md:grid-cols-4 lx:grid-cols-5 grid-cols-1 gap-2 rounded-xl shadow-lg">
+              <button class="text-orange-700 p-1 px-5 border border-orange-600 rounded-sm hover:bg-orange-700 hover:text-white"><a href="#Jackets">JACKETS</a></button>
+              <button class="text-orange-700 p-1 px-5 border border-orange-600 rounded-sm hover:bg-orange-700 hover:text-white"><a href="#Tshirts">T-SHIRTS</a></button>
+              <button class="text-orange-700 p-1 px-5 border border-orange-600 rounded-sm hover:bg-orange-700 hover:text-white"><a href="#Jeans">JEANS</a></button>
+              <button class="text-orange-700 p-1 px-5 border border-orange-600 rounded-sm hover:bg-orange-700 hover:text-white"><a href="#Kids">KIDS</a></button>
+              <button class="text-orange-700 p-1 px-5 border border-orange-600 rounded-sm hover:bg-orange-700 hover:text-white"><a href="#Men">MEN</a></button>
+              <button class="text-orange-700 p-1 px-5 border border-orange-600 rounded-sm hover:bg-orange-700 hover:text-white"><a href="#Women">WOMEN</a></button>
+              <button class="text-orange-700 p-1 px-5 border border-orange-600 rounded-sm hover:bg-orange-700 hover:text-white"><a href="#Top">FILTERS</a></button>
+            </div>
+          </div>
+          </div>
+      </div>
+
+        <div id="Jackets"> 
+            <h1 class="text-orange-600 text-center font-bold text-4xl pt-10 mt-32">JACKETS</h1>
+                <div class="max-w-[1500px] mx-auto grid md:grid-cols-4 lx:grid-cols-5 grid-cols-1 gap-2 rounded-xl shadow-lg py-4 mt-12">
+                    <div class="shadow-xl rounded-xl">
+                    <img class="max-h-[350px] w-full h-full object-cover rounded-xl" src="jacket5.jpg" alt="">
+                    <div class="flex flex-wrap justify-between p-4">
+                        <h1 class="text-1xl font-bold text-orange-600">Carhartt Jacket</h1>
+                    </div>
+                    </div>
+                    <div class="shadow-xl rounded-xl">
+                    <img class="max-h-[350px] w-full h-full object-cover rounded-xl" src="jacket2.jpg" alt="">
+                    <div class="flex flex-wrap justify-between p-4">
+                        <h1 class="text-1xl font-bold text-orange-600">Carhartt Jacket</h1>
+                    </div>
+                    </div>
+
+                    <div class="shadow-xl rounded-xl">
+                    <img class="max-h-[350px] w-full h-full object-cover rounded-xl" src="jacket1.jpg" alt="">
+                    <div class="flex flex-wrap justify-between p-4">
+                        <h1 class="text-1xl font-bold text-orange-600">Carhartt Detroit Jacket</h1>
+                    </div>
+                    </div>
+
+                    <div class="shadow-xl rounded-xl">
+                    <img class="max-h-[350px] w-full h-full object-cover rounded-xl" src="jacket6.jpg" alt="">
+                    <div class="flex flex-wrap justify-between p-4">
+                        <h1 class="text-1xl font-bold text-orange-600">Carhartt Denim Jacket</h1>
+                    </div>
+                    </div>
+            </div>
+            
+            <div class="max-w-[1500px] mx-auto p-4">
+                <div>
+                  <div>
+                    <div class="items-center py-2 mt-12 mx-auto grid md:grid-cols-4 lx:grid-cols-5 grid-cols-1 gap-2 rounded-xl shadow-lg">
+                      <button class="text-orange-700 p-1 px-5 border border-orange-600 rounded-sm hover:bg-orange-700 hover:text-white"><a href="#All">All</a></button>
+                      <button class="text-orange-700 p-1 px-5 border border-orange-600 rounded-sm hover:bg-orange-700 hover:text-white"><a href="#Tshirts">T-SHIRTS</a></button>
+                      <button class="text-orange-700 p-1 px-5 border border-orange-600 rounded-sm hover:bg-orange-700 hover:text-white"><a href="#Jeans">JEANS</a></button>
+                      <button class="text-orange-700 p-1 px-5 border border-orange-600 rounded-sm hover:bg-orange-700 hover:text-white"><a href="#Kids">KIDS</a></button>
+                      <button class="text-orange-700 p-1 px-5 border border-orange-600 rounded-sm hover:bg-orange-700 hover:text-white"><a href="#Men">MEN</a></button>
+                      <button class="text-orange-700 p-1 px-5 border border-orange-600 rounded-sm hover:bg-orange-700 hover:text-white"><a href="#Women">WOMEN</a></button>
+                      <button class="text-orange-700 p-1 px-5 border border-orange-600 rounded-sm hover:bg-orange-700 hover:text-white"><a href="#Top">FILTERS</a></button>
+                    </div>
+                  </div>
+                  </div>
+              </div>
+
+        <div id="Tshirts">
+            <h1 class="text-orange-600 text-center font-bold text-4xl pt-10 mt-32">T-SHIRTS</h1>
+                <div class="max-w-[1500px] mx-auto grid md:grid-cols-4 lx:grid-cols-5 grid-cols-1 gap-2 rounded-xl shadow-lg py-4 mt-12">
+                    <div class="shadow-xl rounded-xl">
+                    <img class="max-h-[350px] w-full h-full object-cover rounded-xl" src="tshirt1.jpg" alt="">
+                    <div class="flex flex-wrap justify-between p-4">
+                        <h1 class="text-1xl font-bold text-orange-600">Carhartt Mens T-shirt Workwear K87 Pocket Basic</h1>
+                    </div>
+                    </div>
+                    <div class="shadow-xl rounded-xl">
+                    <img class="max-h-[350px] w-full h-full object-cover rounded-xl" src="tshirt2.jpg" alt="">
+                    <div class="flex flex-wrap justify-between p-4">
+                        <h1 class="text-1xl font-bold text-orange-600">Carhartt Men's Camo C Graphic T Shirt</h1>
+                    </div>
+                    </div>
+    
+                    <div class="shadow-xl rounded-xl">
+                    <img class="max-h-[350px] w-full h-full object-cover rounded-xl" src="tshirt3.jpg" alt="">
+                    <div class="flex flex-wrap justify-between p-4">
+                        <h1 class="text-1xl font-bold text-orange-600">Carhartt Men's Heather Gray Cotton/Polyester Force Relaxed Fit Midweight Short Sleeve Pocket T-Shirt 104616-HGY</h1>
+                    </div>
+                    </div>
+    
+                    <div class="shadow-xl rounded-xl">
+                    <img class="max-h-[350px] w-full h-full object-cover rounded-xl" src="tshirt4.jpg" alt="">
+                    <div class="flex flex-wrap justify-between p-4">
+                        <h1 class="text-1xl font-bold text-orange-600">Carhartt Men's Loose Fit Heavyweight Short-Sleeve Logo Graphic T-Shirt, Black</h1>                        </div>
+                    </div>
+                </div>
+
+            <div class="max-w-[1500px] mx-auto p-4">
+                <div>
+                    <div>
+                        <div class="items-center py-2 mt-12 mx-auto grid md:grid-cols-4 lx:grid-cols-5 grid-cols-1 gap-2 rounded-xl shadow-lg">
+                        <button class="text-orange-700 p-1 px-5 border border-orange-600 rounded-sm hover:bg-orange-700 hover:text-white"><a href="#All">All</a></button>
+                        <button class="text-orange-700 p-1 px-5 border border-orange-600 rounded-sm hover:bg-orange-700 hover:text-white"><a href="#Jackets">JACKETS</a></button>
+                        <button class="text-orange-700 p-1 px-5 border border-orange-600 rounded-sm hover:bg-orange-700 hover:text-white"><a href="#Jeans">JEANS</a></button>
+                        <button class="text-orange-700 p-1 px-5 border border-orange-600 rounded-sm hover:bg-orange-700 hover:text-white"><a href="#Kids">KIDS</a></button>
+                        <button class="text-orange-700 p-1 px-5 border border-orange-600 rounded-sm hover:bg-orange-700 hover:text-white"><a href="#Men">MEN</a></button>
+                        <button class="text-orange-700 p-1 px-5 border border-orange-600 rounded-sm hover:bg-orange-700 hover:text-white"><a href="#Women">WOMEN</a></button>
+                        <button class="text-orange-700 p-1 px-5 border border-orange-600 rounded-sm hover:bg-orange-700 hover:text-white"><a href="#Top">FILTERS</a></button>
+                    </div>
+                    </div>
+                    </div>
+                </div>
+                    
+         <div id="Jeans">
+            <h1 class="text-orange-600 text-center font-bold text-4xl pt-10 mt-32">JEANS</h1>
+                <div class="max-w-[1500px] mx-auto grid md:grid-cols-4 lx:grid-cols-5 grid-cols-1 gap-2 rounded-xl shadow-lg py-4 mt-12">
+                    <div class="shadow-xl rounded-xl">
+                    <img class="max-h-[350px] w-full h-full object-cover rounded-xl" src="jeans3.webp" alt="">
+                    <div class="flex flex-wrap justify-between p-4">
+                        <h1 class="text-1xl font-bold text-orange-600">Carhartt WIP Nolan Jeans 100% Cotton Fairfield Denim Stonewash</h1>
+                    </div>
+                    </div>
+                    <div class="shadow-xl rounded-xl">
+                    <img class="max-h-[350px] w-full h-full object-cover rounded-xl" src="jeans4.webp" alt="">
+                    <div class="flex flex-wrap justify-between p-4">
+                        <h1 class="text-1xl font-bold text-orange-600">Carhartt FR Jeans Adult 34 Blue Flame Resistant Distressed Work Wear</h1>
+                    </div>
+                    </div>
+
+                    <div class="shadow-xl rounded-xl">
+                    <img class="max-h-[350px] w-full h-full object-cover rounded-xl" src="jeans2.jpg" alt="">
+                    <div class="flex flex-wrap justify-between p-4">
+                        <h1 class="text-1xl font-bold text-orange-600">Carhartt Wip Newel Pant Indigo Blue Dark Jeans Denim Rinsed relaxed tapered cut</h1>
+                    </div>
+                    </div>
+
+                    <div class="shadow-xl rounded-xl">
+                    <img class="max-h-[350px] w-full h-full object-cover rounded-xl" src="jeans5.webp" alt="">
+                    <div class="flex flex-wrap justify-between p-4">
+                        <h1 class="text-1xl font-bold text-orange-600">Carhartt Original Dungaree Fit Jeans</h1>
+                    </div>
+                    </div>
+            </div>
+
+            <div lass="max-w-[1500px] mx-auto p-4">
+                <div>
+                  <div>
+                    <div class="items-center py-2 mt-12 mx-auto grid md:grid-cols-4 lx:grid-cols-5 grid-cols-1 gap-2 rounded-xl shadow-lg">
+                      <button class="text-orange-700 p-1 px-5 border border-orange-600 rounded-sm hover:bg-orange-700 hover:text-white"><a href="#All">All</a></button>
+                      <button class="text-orange-700 p-1 px-5 border border-orange-600 rounded-sm hover:bg-orange-700 hover:text-white"><a href="#Jackets">JACKETS</a></button>
+                      <button class="text-orange-700 p-1 px-5 border border-orange-600 rounded-sm hover:bg-orange-700 hover:text-white"><a href="#Tshirts">T-SHIRTS</a></button>
+                      <button class="text-orange-700 p-1 px-5 border border-orange-600 rounded-sm hover:bg-orange-700 hover:text-white"><a href="#Kids">KIDS</a></button>
+                      <button class="text-orange-700 p-1 px-5 border border-orange-600 rounded-sm hover:bg-orange-700 hover:text-white"><a href="#Men">MEN</a></button>
+                      <button class="text-orange-700 p-1 px-5 border border-orange-600 rounded-sm hover:bg-orange-700 hover:text-white"><a href="#Women">WOMEN</a></button>
+                      <button class="text-orange-700 p-1 px-5 border border-orange-600 rounded-sm hover:bg-orange-700 hover:text-white"><a href="#Top">FILTERS</a></button>
+                    </div>
+                  </div>
+                  </div>
+              </div>
+
+        <div id="Kids">
+            <h1 class="text-orange-600 text-center font-bold text-4xl pt-10 mt-32">KIDS</h1>
+                <div class="max-w-[1500px] mx-auto grid md:grid-cols-4 lx:grid-cols-5 grid-cols-1 gap-2 rounded-xl shadow-lg py-4 mt-12">
+                    <div class="shadow-xl rounded-xl">
+                    <img class="max-h-[350px] w-full h-full object-cover rounded-xl" src="kids1.jpg" alt="">
+                    <div class="flex flex-wrap justify-between p-4">
+                        <h1 class="text-1xl font-bold text-orange-600">Infant/Toddler Boys Carhartt Kids Short Sleeve Shirt and Stripe Shortall | Eagle Eye Outfitters</h1>
+                    </div>
+                    </div>
+                    <div class="shadow-xl rounded-xl">
+                    <img class="max-h-[350px] w-full h-full object-cover rounded-xl" src="kids2.webp" alt="">
+                    <div class="flex flex-wrap justify-between p-4">
+                        <h1 class="text-1xl font-bold text-orange-600">CARHARTT 2 Piece OFF ROAD Truck T-SHIRT & SHORTS SET Toddler BOYS</h1>
+                    </div>
+                    </div>
+    
+                    <div class="shadow-xl rounded-xl">
+                    <img class="max-h-[350px] w-full h-full object-cover rounded-xl" src="kids3.jpg" alt="">
+                    <div class="flex flex-wrap justify-between p-4">
+                        <h1 class="text-1xl font-bold text-orange-600">CARHARTT KIDS Infant/Toddler Microsanded Canvas Bib Overalls — Ono Work & Safety</h1>
+                    </div>
+                    </div>
+    
+                    <div class="shadow-xl rounded-xl">
+                    <img class="max-h-[350px] w-full h-full object-cover rounded-xl" src="kids4.jpg" alt="">
+                    <div class="flex flex-wrap justify-between p-4">
+                        <h1 class="text-1xl font-bold text-orange-600">Infant/Toddler Boys Carhartt Kids Bodysuit Shortall and Bib Set | Eagle Eye Outfitters</h1>                        </div>
+                    </div>
+                </div>        
+
+                <div class="max-w-[1500px] mx-auto p-4">
+                    <div>
+                      <div>
+                        <div class="items-center py-2 mt-12 mx-auto grid md:grid-cols-4 lx:grid-cols-5 grid-cols-1 gap-2 rounded-xl shadow-lg">
+                          <button class="text-orange-700 p-1 px-5 border border-orange-600 rounded-sm hover:bg-orange-700 hover:text-white"><a href="#All">All</a></button>
+                          <button class="text-orange-700 p-1 px-5 border border-orange-600 rounded-sm hover:bg-orange-700 hover:text-white"><a href="#Jackets">JACKETS</a></button>
+                          <button class="text-orange-700 p-1 px-5 border border-orange-600 rounded-sm hover:bg-orange-700 hover:text-white"><a href="#Tshirts">T-SHIRTS</a></button>
+                          <button class="text-orange-700 p-1 px-5 border border-orange-600 rounded-sm hover:bg-orange-700 hover:text-white"><a href="#Jeans">JEANS</a></button>
+                          <button class="text-orange-700 p-1 px-5 border border-orange-600 rounded-sm hover:bg-orange-700 hover:text-white"><a href="#Men">MEN</a></button>
+                          <button class="text-orange-700 p-1 px-5 border border-orange-600 rounded-sm hover:bg-orange-700 hover:text-white"><a href="#Women">WOMEN</a></button>
+                          <button class="text-orange-700 p-1 px-5 border border-orange-600 rounded-sm hover:bg-orange-700 hover:text-white"><a href="#Top">FILTERS</a></button>
+                        </div>
+                      </div>
+                      </div>
+                  </div>
+                
+         <div id="Men">
+            <h1 class="text-orange-600 text-center font-bold text-4xl pt-10 mt-32">MEN</h1>
+                <div class="max-w-[1500px] mx-auto grid md:grid-cols-4 lx:grid-cols-5 grid-cols-1 gap-2 rounded-xl shadow-lg py-4 mt-12">
+                    <div class="shadow-xl rounded-xl">
+                    <img class="max-h-[350px] w-full h-full object-cover rounded-xl" src="men1.webp" alt="">
+                    <div class="flex flex-wrap justify-between p-4">
+                        <h1 class="text-1xl font-bold text-orange-600">Carhartt Men's Hoodie</h1>
+                    </div>
+                    </div>
+                    <div class="shadow-xl rounded-xl">
+                    <img class="max-h-[350px] w-full h-full object-cover rounded-xl" src="men2.webp" alt="">
+                    <div class="flex flex-wrap justify-between p-4">
+                        <h1 class="text-1xl font-bold text-orange-600">Carhartt Men's Hat Beanie</h1>
+                    </div>
+                    </div>
+
+                    <div class="shadow-xl rounded-xl">
+                    <img class="max-h-[350px] w-full h-full object-cover rounded-xl" src="men3.webp" alt="">
+                    <div class="flex flex-wrap justify-between p-4">
+                        <h1 class="text-1xl font-bold text-orange-600">Carhartt Men's Cargo Short</h1>
+                    </div>
+                    </div>
+
+                    <div class="shadow-xl rounded-xl">
+                    <img class="max-h-[350px] w-full h-full object-cover rounded-xl" src="men4.jpg" alt="">
+                    <div class="flex flex-wrap justify-between p-4">
+                        <h1 class="text-1xl font-bold text-orange-600">Carhartt Men's Ground Force Leather Composite Toe Work Boots</h1>
+                    </div>
+                    </div>
+            </div>
+
+            <div class="max-w-[1500px] mx-auto p-4">
+                <div>
+                  <div>
+                    <div class="items-center py-2 mt-12 mx-auto grid md:grid-cols-4 lx:grid-cols-5 grid-cols-1 gap-2 rounded-xl shadow-lg">
+                      <button class="text-orange-700 p-1 px-5 border border-orange-600 rounded-sm hover:bg-orange-700 hover:text-white"><a href="#All">All</a></button>
+                      <button class="text-orange-700 p-1 px-5 border border-orange-600 rounded-sm hover:bg-orange-700 hover:text-white"><a href="#Jackets">JACKETS</a></button>
+                      <button class="text-orange-700 p-1 px-5 border border-orange-600 rounded-sm hover:bg-orange-700 hover:text-white"><a href="#Tshirts">T-SHIRTS</a></button>
+                      <button class="text-orange-700 p-1 px-5 border border-orange-600 rounded-sm hover:bg-orange-700 hover:text-white"><a href="#Jeans">JEANS</a></button>
+                      <button class="text-orange-700 p-1 px-5 border border-orange-600 rounded-sm hover:bg-orange-700 hover:text-white"><a href="#Kids">KIDS</a></button>
+                      <button class="text-orange-700 p-1 px-5 border border-orange-600 rounded-sm hover:bg-orange-700 hover:text-white"><a href="#Women">WOMEN</a></button>
+                      <button class="text-orange-700 p-1 px-5 border border-orange-600 rounded-sm hover:bg-orange-700 hover:text-white"><a href="#Top">FILTERS</a></button>
+                    </div>
+                  </div>
+                  </div>
+              </div>
+
+        <div id="Women">
+            <h1 class="text-orange-600 text-center font-bold text-4xl pt-10 mt-32">WOMEN</h1>
+                <div class="max-w-[1500px] mx-auto grid md:grid-cols-4 lx:grid-cols-5 grid-cols-1 gap-2 rounded-xl shadow-lg py-4 mt-12 ">
+                    <div class="shadow-xl rounded-xl">
+                    <img class="max-h-[350px] w-full h-full object-cover rounded-xl" src="women1.jpg" alt="">
+                    <div class="flex flex-wrap justify-between p-4">
+                        <h1 class="text-1xl font-bold text-orange-600">Carhartt Women's Hoodie</h1>
+                    </div>
+                    </div>
+                    <div class="shadow-xl rounded-xl">
+                    <img class="max-h-[350px] w-full h-full object-cover rounded-xl" src="women2.avif" alt="">
+                    <div class="flex flex-wrap justify-between p-4">
+                        <h1 class="text-1xl font-bold text-orange-600">Carhartt Women's Cap</h1>
+                    </div>
+                    </div>
+    
+                    <div class="shadow-xl rounded-xl">
+                    <img class="max-h-[350px] w-full h-full object-cover rounded-xl" src="women3.jpg" alt="">
+                    <div class="flex flex-wrap justify-between p-4">
+                        <h1 class="text-1xl font-bold text-orange-600">Carhartt Women's Short</h1>
+                    </div>
+                    </div>
+    
+                    <div class="shadow-xl rounded-xl">
+                    <img class="max-h-[350px] w-full h-full object-cover rounded-xl" src="women4.webp" alt="">
+                    <div class="flex flex-wrap justify-between p-4">
+                        <h1 class="text-1xl font-bold text-orange-600">Carhartt Womens Wellington Leather Soft Toe Safety Work Shoes</h1>                        </div>
+                    </div>
+                </div>       
+                
+                <div class="max-w-[1500px] mx-auto p-4">
+                    <div>
+                      <div>
+                        <div class="items-center py-2 mt-12 mx-auto grid md:grid-cols-4 lx:grid-cols-5 grid-cols-1 gap-2 rounded-xl shadow-lg">
+                          <button class="text-orange-700 p-1 px-5 border border-orange-600 rounded-sm hover:bg-orange-700 hover:text-white"><a href="#All">All</a></button>
+                          <button class="text-orange-700 p-1 px-5 border border-orange-600 rounded-sm hover:bg-orange-700 hover:text-white"><a href="#Jackets">JACKETS</a></button>
+                          <button class="text-orange-700 p-1 px-5 border border-orange-600 rounded-sm hover:bg-orange-700 hover:text-white"><a href="#Tshirts">T-SHIRTS</a></button>
+                          <button class="text-orange-700 p-1 px-5 border border-orange-600 rounded-sm hover:bg-orange-700 hover:text-white"><a href="#Jeans">JEANS</a></button>
+                          <button class="text-orange-700 p-1 px-5 border border-orange-600 rounded-sm hover:bg-orange-700 hover:text-white"><a href="#Kids">KIDS</a></button>
+                          <button class="text-orange-700 p-1 px-5 border border-orange-600 rounded-sm hover:bg-orange-700 hover:text-white"><a href="#Men">MEN</a></button>
+                          <button class="text-orange-700 p-1 px-5 border border-orange-600 rounded-sm hover:bg-orange-700 hover:text-white"><a href="#Top">FILTERS</a></button>
+                        </div>
+                      </div>
+                      </div>
+                  </div>               
+        </div>
+      </div>
+    </div>
+    <div id="kamatis" class="mt-10 flex flex-col gap-5 ml-5">
+        <a class="text-base text-black  hover:bg-orange-700" href=""><i class="fa-solid fa-cart-flatbed-suitcase"></i> Order</a>
+        <a class="text-base text-black  hover:bg-orange-700" href=""><i class="fa-solid fa-heart"></i> Favorite</a>
+        <a class="text-base text-black  hover:bg-orange-700" href=""><i class="fa-solid fa-wallet"></i> Wallet</a>
+        <a class="text-base text-black  hover:bg-orange-700" href=""><i class="fa-solid fa-question"></i> Help</a>
+        <a class="text-base text-black  hover:bg-orange-700" href=""><i class="fa-solid fa-rectangle-ad"></i> Promotions</a>
+        <a class="text-base text-black  hover:bg-orange-700" href=""><i class="fa-solid fa-star"></i> BestOne</a>
+        <a class="text-base text-black  hover:bg-orange-700" href=""><i class="fa-solid fa-users-between-lines mb-20" ></i> Invite Friends</a>
+    </div> 
+
+    <footer class="bg-gray-500 text-white py-4 fixed bottom-0 left-0 w-full z-50">
+        <div class="container mx-auto px-4">
+          <p class="text-xl text-center">&copy; Jeremy Labial 2024</p>
+        </div>
+      </footer>
+  </div>
+</body>
+</html>
+</body>
+</html>
